@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "PHP_ZMQ_WebSockets", "PHP_ZMQ_WebSockets\PHP_ZMQ_WebSockets.phpproj", "{7D03CB8C-AB1C-4C5A-964E-4B0482DD255C}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "ChatServer", "ChatServer\ChatServer.phpproj", "{9089A20E-BDC5-4A29-AE89-30A5A2FDF03E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50A096C1-1ED1-480E-833A-15D71BA1FB5A}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D03CB8C-AB1C-4C5A-964E-4B0482DD255C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D03CB8C-AB1C-4C5A-964E-4B0482DD255C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9089A20E-BDC5-4A29-AE89-30A5A2FDF03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9089A20E-BDC5-4A29-AE89-30A5A2FDF03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

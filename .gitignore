@@ -1,0 +1,4 @@
+/ChatServer/vendor
+/.vs
+*.user
+*.lock

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>PHP_ZMQ_WebSockets</Name>
+    <ProjectGuid>7d03cb8c-ab1c-4c5a-964e-4b0482dd255c</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>PHP_ZMQ_WebSockets</AssemblyName>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
+    <Runtime>PHP</Runtime>
+    <RuntimeVersion>5.6</RuntimeVersion>
+    <EnvName>PHPDev</EnvName>
+    <PHPDevHostName>localhost</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="api.php" />
+    <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="style\" />
+    <Folder Include="script\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="script\chat.js" />
+    <Content Include="script\jquery-1.9.1.intellisense.js" />
+    <Content Include="script\jquery-1.9.1.js" />
+    <Content Include="script\jquery-1.9.1.min.js" />
+    <Content Include="script\jquery-1.9.1.min.map" />
+    <Content Include="script\knockout-3.3.0.debug.js" />
+    <Content Include="script\knockout-3.3.0.js" />
+    <Content Include="script\knockout.mapping-latest.debug.js" />
+    <Content Include="script\knockout.mapping-latest.js" />
+    <Content Include="style\bootstrap-theme.css" />
+    <Content Include="style\bootstrap-theme.css.map" />
+    <Content Include="style\bootstrap-theme.min.css" />
+    <Content Include="style\bootstrap.css" />
+    <Content Include="style\bootstrap.css.map" />
+    <Content Include="style\bootstrap.min.css" />
+    <Content Include="style\bootstrap.min.css.map" />
+  </ItemGroup>
+</Project>
